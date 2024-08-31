@@ -1,41 +1,48 @@
-### Vector Search with locally and Ragie.ai
-
 # Project BEAM
 
-In this project, we will walk you through the steps of converting PDF files to JSON format and how to perform data retrieval using Ragie.ai. For complex PDFs like we used, first converting pdf to csv, after csv to json  can be useful.
+In this project, we guide you through the process of converting PDF files to JSON format, performing data retrieval using Ragie.ai, and implementing similar operations locally. Below are the key steps and processes involved.
 
-Additionally, you will see how to enhance efficiency with locally running retriever methods.
+## 📝 PDF to JSON Conversion
 
-## 📄 Converting PDF to JSON
+The first step involves converting our PDF files into JSON format. We used the [camelot_convert_to_json.ipynb](https://github.com/klncgty/Project_BEAM/blob/main/advanced_file_extra/camelot_convert_to_json.ipynb) notebook located in the [advanced_file_ext](https://github.com/klncgty/Project_BEAM/tree/main/advanced_file_extra) folder to achieve this. This notebook provides all the necessary code to extract tables from PDF files and convert them into JSON format.
 
-The first step involves converting our PDF file into JSON format. 
-To accomplish this, we used the [camelot_convert_to_json.ipynb](https://github.com/klncgty/Project_BEAM/blob/main/advanced_file_extra/camelot_convert_to_json.ipynb) notebook located in the [advanced_file_ext](https://github.com/klncgty/Project_BEAM/tree/main/advanced_file_extra) folder. 
-This file contains all the necessary code to transform PDF tables into JSON format.
+### Steps:
+1. **Extract Tables:** We extracted tables from the PDF using the Camelot library.
+2. **Save as JSON:** Each table was saved as a temporary JSON file.
+3. **Combine JSONs:** All JSON files were combined into a single `all_tables.json` file, ensuring that paragraph descriptions were kept intact without splitting sentences.
 
-## 🚀 Uploading JSON Data
+## 🚀 Operations in Ragie.ai
 
-Once we have the JSON file ready, we upload it to the Ragie.ai platform using the [raige_uploading.py](https://github.com/klncgty/Project_BEAM/blob/main/ragie_main/raige_uploading.py) script located in the [ragie_main](https://github.com/klncgty/Project_BEAM/tree/main/ragie_main) folder. 
-This script ensures a quick and seamless upload of your JSON file to the platform.
+Once the PDF data is converted to JSON, we uploaded this JSON file to Ragie.ai for advanced data retrieval operations. Below are the key files and scripts used for these operations.
 
-## 🔍 Accessing Data
+### JSON Uploading
+- **Script:** [raige_uploading.py](https://github.com/klncgty/Project_BEAM/blob/main/ragie_main/raige_uploading.py)
+- **Purpose:** This script uploads the JSON data to Ragie.ai, making it accessible for subsequent queries.
 
-To access our JSON file and query the data, we use the [reach_document.py](https://github.com/klncgty/Project_BEAM/blob/main/ragie_main/reach_document.py) script. 
-This script allows you to efficiently access the data stored in your uploaded JSON file.
+### Accessing Data
+- **Script:** [reach_document.py](https://github.com/klncgty/Project_BEAM/blob/main/ragie_main/reach_document.py)
+- **Purpose:** Allows you to access and retrieve data from the uploaded JSON file on Ragie.ai.
 
-## 📝 Query Execution
+### Query Execution
+- **Script:** [query.py](https://github.com/klncgty/Project_BEAM/blob/main/ragie_main/query.py)
+- **Purpose:** This script is used to execute queries against the JSON data on Ragie.ai, retrieving the most relevant results based on the search scores.
 
-The technical query execution is handled by the [query.py](https://github.com/klncgty/Project_BEAM/blob/main/ragie_main/query.py) script. 
-You can use this script to run your queries and retrieve the desired information from your JSON file.
+### Evaluating Results
+- **Tutorial:** [Ragie.ai Tutorial](https://docs.ragie.ai/docs/tutorial)
+- **Note:** The retrieved results are ranked based on relevance. You can enhance accuracy through trial and error by adjusting the `top_k` parameter.
 
-## 📈 Evaluating Results
+## 🔧 Local Operations
 
-The above steps comprise the process of searching for data within the JSON file uploaded to Ragie.ai. 
-You can perform the same tasks with less effort and fewer parameter changes by following the [Ragie.ai tutorial](https://docs.ragie.ai/docs/tutorial).
+In addition to the operations performed on Ragie.ai, similar processes can be executed locally using open-source tools and libraries. Below are the key scripts and methods used for local retrieval.
 
-The retrieved results are those with the highest search scores as returned by the retriever. 
-You can improve the accuracy of these results through trial and error.
+### Local Retriever Method
+- **Folder:** [searchin_locally](https://github.com/klncgty/Project_BEAM/tree/main/searchin_locally)
+- **Notebook:** [vector_search.ipynb](https://github.com/klncgty/Project_BEAM/blob/main/searchin_locally/vector_search.ipynb)
+- **Purpose:** This notebook replicates the Ragie.ai operations locally. It uses open-source tools to perform vector searches, allowing for more customizable and experimental retrieval processes.
 
-## 🔧 Local Retriever Method
+### Customization
+- **Flexibility:** The local approach allows for more parameter tweaks and the use of alternative technologies to achieve the best possible results. This method is ideal for testing and optimizing retrieval strategies.
 
-Another retriever method we utilize is the locally running method, which you can find in the [searchin_locally](https://github.com/klncgty/Project_BEAM/tree/main/searchin_locally) folder. The [vector_search.ipynb](https://github.com/klncgty/Project_BEAM/blob/main/searchin_locally/vector_search.ipynb) notebook in this folder mirrors the processes performed by the Ragie.ai application. All the procedures used in this notebook are open-source, allowing for various parameter tweaks and alternative technologies to be tested for maximum result accuracy.
+---
 
+This README provides a comprehensive overview of the steps involved in the Project BEAM, from PDF to JSON conversion to advanced data retrieval operations, both on Ragie.ai and locally.
