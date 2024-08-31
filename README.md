@@ -14,7 +14,7 @@ In [camelot.ipynb](https://github.com/klncgty/Project_BEAM/blob/main/advanced_fi
 ### Steps:
 1. **Extract Tables:** We extracted tables from the PDF using the Camelot library.
 2. **Save as JSON:** Each table was saved as a temporary JSON file.
-3. **Combine JSONs:** All JSON files were combined into a single `all_tables.json` file, ensuring that paragraph descriptions were kept intact without splitting sentences.
+3. **Combine JSONs:** All JSON files were combined into a single `all_tables.json` file, ensuring that paragraph descriptions were kept intact without splitting sentences.!! However, some paragraphs may fail to put it together. If the resource is more configured, this problem may not occur. !!
 
 ## 🚀 Operations in Ragie.ai
 
