@@ -15,7 +15,7 @@ In [camelot.ipynb](https://github.com/klncgty/Project_BEAM/blob/main/advanced_fi
 1. **Extract Tables:** We extracted tables from the PDF using the Camelot library.
 2. **Save as JSON:** Each table was saved as a temporary JSON file.
 3. **Combine JSONs:** All JSON files were combined into a single `all_tables.json` file, ensuring that paragraph descriptions were kept intact without splitting sentences.
-   !! However, some paragraphs may fail to put it together. If the resource is more configured, this problem may not occur. !!
+   !! However, some paragraphs may fail to put it together. If the resource is more configured, this problem may not occur. Or  maybe, some manupilations on csv tables, got from camelot , can be useful for not facing this issue. But ı can state that this is not a big problem. !!
 
 ## 🚀 Operations in Ragie.ai
 
