@@ -121,9 +121,8 @@ When working with retrieval-augmented generation (RAG) or other similar tasks, c
 
 ---
 
-This section of the README provides an overview of the vector stores and embedding models that can be utilized within the Project BEAM framework, along with their respective licensing models.
-
+This README provides a comprehensive overview of the steps involved in the Project BEAM, from PDF to JSON conversion to advanced data retrieval operations, both on Ragie.ai and locally.
 
 ---
 
-This README provides a comprehensive overview of the steps involved in the Project BEAM, from PDF to JSON conversion to advanced data retrieval operations, both on Ragie.ai and locally.
+
