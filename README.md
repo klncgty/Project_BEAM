@@ -4,7 +4,10 @@ In this project, we guide you through the process of converting PDF files to JSO
 
 ## 📝 PDF to JSON Conversion
 
-The first step involves converting our PDF files into JSON format. We used the [camelot_convert_to_json.ipynb](https://github.com/klncgty/Project_BEAM/blob/main/advanced_file_extra/camelot_convert_to_json.ipynb) notebook located in the [advanced_file_ext](https://github.com/klncgty/Project_BEAM/tree/main/advanced_file_extra) folder to achieve this. This notebook provides all the necessary code to extract tables from PDF files and convert them into JSON format.
+The first step involves converting our PDF files into JSON format.Because json format more suitable to reach all the priceses of materials correctly because of its dict format.
+
+
+ We used the [camelot_convert_to_json.ipynb](https://github.com/klncgty/Project_BEAM/blob/main/advanced_file_extra/camelot_convert_to_json.ipynb) notebook located in the [advanced_file_ext](https://github.com/klncgty/Project_BEAM/tree/main/advanced_file_extra) folder to achieve this. This notebook provides all the necessary code to extract tables from PDF files and convert them into JSON format.
 
 ### Steps:
 1. **Extract Tables:** We extracted tables from the PDF using the Camelot library.
