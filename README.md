@@ -33,6 +33,7 @@ Once the PDF data is converted to JSON, we uploaded this JSON file to Ragie.ai f
 - **Script:** [query.py](https://github.com/klncgty/Project_BEAM/blob/main/ragie_main/query.py)
 - **Purpose:** This script is used to execute queries against the JSON data on Ragie.ai, retrieving the most relevant results based on the search scores.
 
+
 ### Evaluating Results
 - **Tutorial:** [Ragie.ai Tutorial](https://docs.ragie.ai/docs/tutorial)
 - **Note:** The retrieved results are ranked based on relevance. You can enhance accuracy through trial and error by adjusting the `top_k` parameter.
