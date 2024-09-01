@@ -28,12 +28,7 @@ Once the PDF data is converted to JSON, we uploaded this JSON file to Ragie.ai f
 ### Accessing Data
 - **Script:** [reach_document.py](https://github.com/klncgty/Project_BEAM/blob/main/ragie_main/reach_document.py)
 - **Purpose:** Allows you to access and retrieve data from the uploaded JSON file on Ragie.ai.
-
-
-### Query Execution
-- **Script:** [query.py](https://github.com/klncgty/Project_BEAM/blob/main/ragie_main/query.py)
-- **Purpose:** This script is used to execute queries against the JSON data on Ragie.ai, retrieving the most relevant results based on the search scores.
- - You will have an output as below.
+- You will have an output as below.
    ```
      {  "id": "64ca0a7b-2604-42dc-b22e-e54204ebb96d",
          "created_at": "2024-08-01T14:04:41.746519Z",
@@ -44,6 +39,11 @@ Once the PDF data is converted to JSON, we uploaded this JSON file to Ragie.ai f
          "chunk_count": 1942,
          "external_id": null}
     ```
+
+### Query Execution
+- **Script:** [query.py](https://github.com/klncgty/Project_BEAM/blob/main/ragie_main/query.py)
+- **Purpose:** This script is used to execute queries against the JSON data on Ragie.ai, retrieving the most relevant results based on the search scores.
+ 
 
 ### Evaluating Results
 - **Tutorial:** [Ragie.ai Tutorial](https://docs.ragie.ai/docs/tutorial)
