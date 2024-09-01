@@ -61,7 +61,7 @@ In addition to the operations performed on Ragie.ai, similar processes can be ex
 ### Customization
 - **Flexibility:** The local approach allows for more parameter tweaks and the use of alternative technologies to achieve the best possible results. This method is ideal for testing and optimizing retrieval strategies.
 
-## 🔍 More Vector Stores and Embedding Models Alternatives
+## 🔍 More Vector Stores and Embedding Models Alternatives ((For Local))
 
 When working with retrieval-augmented generation (RAG) or other similar tasks, choosing the right vector store and embedding model is crucial. Below is a list of popular vector stores and embedding models, along with information about their availability (open-source vs. paid).
 
