@@ -1,6 +1,6 @@
 # Project BEAM
 
-In this project, we guide you through the process of converting PDF files to JSON format, performing data retrieval using Ragie.ai, and implementing similar operations locally. Below are the key steps and processes involved.
+In this project, i guide you through the process of converting PDF files to JSON format, performing data retrieval using Ragie.ai, and implementing similar operations locally. Below are the key steps and processes involved.
 
 ## 📝 PDF to JSON Conversion
 
