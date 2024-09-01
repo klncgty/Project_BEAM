@@ -64,6 +64,13 @@ In addition to the operations performed on Ragie.ai, similar processes can be ex
 
 ### Results based on the type of source file.
 
+ ````
+```
+ COMING SOON...  
+
+```
+````
+
 ## 🔍 More Vector Stores and Embedding Models Alternatives ((For Local))
 
 When working with retrieval-augmented generation (RAG) or other similar tasks, choosing the right vector store and embedding model is crucial. Below is a list of popular vector stores and embedding models, along with information about their availability (open-source vs. paid).
