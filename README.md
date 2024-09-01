@@ -29,14 +29,15 @@ Once the PDF data is converted to JSON, we uploaded this JSON file to Ragie.ai f
 - **Script:** [reach_document.py](https://github.com/klncgty/Project_BEAM/blob/main/ragie_main/reach_document.py)
 - **Purpose:** Allows you to access and retrieve data from the uploaded JSON file on Ragie.ai.
 - You will have an output as below.
-  ''' {  "id": "64ca0a7b-2604-42dc-b22e-e54204ebb96d",
+  ```
+     {  "id": "64ca0a7b-2604-42dc-b22e-e54204ebb96d",
          "created_at": "2024-08-01T14:04:41.746519Z",
          "updated_at": "2024-08-01T14:17:07.294238Z",
          "status": "ready",
          "name": "EXAMPLE.pdf",
          "metadata": { "title": "YOUR_TITLE", "environment": "YOUR_ENV_NAME"},
          "chunk_count": 1942,
-         "external_id": null} '''
+         "external_id": null} ```
 
 ### Query Execution
 - **Script:** [query.py](https://github.com/klncgty/Project_BEAM/blob/main/ragie_main/query.py)
