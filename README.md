@@ -1,8 +1,4 @@
-> [!CAUTION]
-> it is almost finish. Just 1 hour remaning...
-![n9sjc](https://github.com/user-attachments/assets/b20b3cf3-c45a-46e6-b999-740ef49d6750)
-
-# Project BEAM
+### Project BEAM
 
 In this project, i guide you through the process of converting PDF files to JSON format, performing data retrieval using Ragie.ai, and implementing similar operations locally. Below are the key steps and processes involved.
 
@@ -152,7 +148,7 @@ When working with retrieval-augmented generation (RAG) or other similar tasks, c
 > [Huggingface](https://huggingface.co/models?other=embeddings) and many other integration tools like [llamaindex](https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings/) or [langchain](https://python.langchain.com/v0.2/docs/integrations/text_embedding/) has open source embedding models also.
 
 ### Outcome
-*** Observed during the project *** :
+***Observed during the project*** :
 - [x] Ragie.ai contains file parsing, embedding and vector store operations in itself.
 - [x] Ragie.ai useful for vector search in uncomplicated sources.
 - [x] Ragie.ai Not an experimental environment.
