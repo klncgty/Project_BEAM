@@ -151,6 +151,16 @@ When working with retrieval-augmented generation (RAG) or other similar tasks, c
 > [!TIP]
 > [Huggingface](https://huggingface.co/models?other=embeddings) and many other integration tools like [llamaindex](https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings/) or [langchain](https://python.langchain.com/v0.2/docs/integrations/text_embedding/) has open source embedding models also.
 
+### Outcome
+*** Observed during the project *** :
+- [x] Ragie.ai contains file parsing, embedding and vector store operations in itself.
+- [x] Ragie.ai useful for vector search in uncomplicated sources.
+- [x] Ragie.ai Not an experimental environment.
+- [x] Vector store search has become more efficient when the pdf file is converted to a json file.
+- [x] JSON format is more efficient for complex data when using Ragie.ai.
+- [x] If we search the vector store locally, with code we write from scratch, we can be more free.
+- [x] [VertexAI](https://cloud.google.com/generative-ai-app-builder/docs/builder-apis) could be an alternative to Ragie.ai. Must try!
+
 ---
 
 This README provides a comprehensive overview of the steps involved in the Project BEAM, from PDF to JSON conversion to advanced data retrieval operations, both on Ragie.ai and locally.
