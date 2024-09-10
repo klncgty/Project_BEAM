@@ -45,3 +45,23 @@ Once the PDF data is converted to JSON, we uploaded this JSON file to Ragie.ai f
          "chunk_count": 1942,
          "external_id": null}
     ```
+### Query Execution
+- **Script:** [query.py](https://github.com/klncgty/Project_BEAM/blob/main/ragie_main/query.py)
+- **Purpose:** This script is used to execute queries against the JSON data on Ragie.ai, retrieving the most relevant results based on the search scores.
+ 
+
+### Evaluating Results
+- **Tutorial:** [Ragie.ai Tutorial](https://docs.ragie.ai/docs/tutorial)
+- **Note:** The retrieved results are ranked based on relevance. You can enhance accuracy through trial and error by adjusting the `top_k` parameter.
+
+## 🔧 Local Operations
+
+In addition to the operations performed on Ragie.ai, similar processes can be executed locally using open-source tools and libraries. Below are the key scripts and methods used for local retrieval.
+
+### Local Retriever Method
+- **Folder:** [searchin_locally](https://github.com/klncgty/Project_BEAM/tree/main/searchin_locally)
+- **Notebook:** [vector_search.ipynb](https://github.com/klncgty/Project_BEAM/blob/main/searchin_locally/vector_search.ipynb)
+- **Purpose:** This notebook replicates the Ragie.ai operations locally. It uses open-source tools to perform vector searches, allowing for more customizable and experimental retrieval processes.
+
+### Customization
+- **Flexibility:** The local approach allows for more parameter tweaks and the use of alternative technologies to achieve the best possible results. This method is ideal for testing and optimizing retrieval strategies.
