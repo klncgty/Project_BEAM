@@ -67,3 +67,6 @@ In addition to the operations performed on Ragie.ai, similar processes can be ex
 - **Flexibility:** The local approach allows for more parameter tweaks and the use of alternative technologies to achieve the best possible results. This method is ideal for testing and optimizing retrieval strategies.
 
 ### Results based on the type of source file.
+ ````
+```
+  When working on PDFs, search results are not efficient in terms of price. Because the unit price of the target material cannot be reached. 
