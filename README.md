@@ -145,7 +145,7 @@ When working with retrieval-augmented generation (RAG) or other similar tasks, c
    - **Link:** [GloVe GitHub Repository](https://github.com/stanfordnlp/GloVe)
 
 > [!TIP]
-> [Huggingface](https://huggingface.co/models?other=embeddings) and many other integration tools like [llamaindex](https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings/) or [langchain](https://python.langchain.com/v0.2/docs/integrations/text_embedding/) has open source embedding models also.
+> [Huggingface-embeddings](https://huggingface.co/models?other=embeddings) and many other integration tools like [llamaindex - embeddings](https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings/) or [langchain-embeddings](https://python.langchain.com/v0.2/docs/integrations/text_embedding/) has open source embedding models also.
 
 ### Outcome
 ***Observed during the project*** :
