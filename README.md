@@ -62,7 +62,8 @@ In addition to the operations performed on Ragie.ai, similar processes can be ex
 - **Purpose:** This notebook replicates the Ragie.ai operations locally. It uses open-source tools to perform vector searches, allowing for more customizable and experimental retrieval processes.
 
 ### Customization
-- **Flexibility:** The local approach allows for more parameter tweaks and the use of alternative technologies to achieve the best possible results. This method is ideal for testing and optimizing retrieval strategies.
+> [!NOTE]
+>   **Flexibility:** The local approach allows for more parameter tweaks and the use of alternative technologies to achieve the best possible results. This method is ideal for testing and optimizing retrieval strategies.
 
 ### Results based on the type of source file.
  
