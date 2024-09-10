@@ -148,7 +148,7 @@ When working with retrieval-augmented generation (RAG) or other similar tasks, c
    - **Link:** [GloVe GitHub Repository](https://github.com/stanfordnlp/GloVe)
 
 > [!TIP]
-> HF and many other integration tools like llama index or langchain has open source embedding models also.
+> [Huggingface](https://huggingface.co/models?other=embeddings) and many other integration tools like [llamaindex](https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings/) or [langchain](https://python.langchain.com/v0.2/docs/integrations/text_embedding/) has open source embedding models also.
 
 ---
 
