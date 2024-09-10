@@ -71,10 +71,7 @@ In addition to the operations performed on Ragie.ai, similar processes can be ex
 ```
 When working on PDFs, search results are not efficient in terms of price.
 Because the unit price of the target material cannot be reached.
-However, when working on json as a source, thanks to the dictionary structure,
-   it is possible to bring the relevant material in the form of a dict
-      and easily access the price information of that related material. 
-
+However, when working on json as a source, thanks to the dictionary structure,it is possible to bring the relevant material in the form of a dict and easily access the price information of that related material. 
 ```
 
 
