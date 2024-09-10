@@ -147,6 +147,9 @@ When working with retrieval-augmented generation (RAG) or other similar tasks, c
    - **License:** Open Source
    - **Link:** [GloVe GitHub Repository](https://github.com/stanfordnlp/GloVe)
 
+> [!TIP]
+> HF and many other integration tools like llama index or langchain has open source embedding models also.
+
 ---
 
 This README provides a comprehensive overview of the steps involved in the Project BEAM, from PDF to JSON conversion to advanced data retrieval operations, both on Ragie.ai and locally.
