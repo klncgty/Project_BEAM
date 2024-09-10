@@ -23,7 +23,7 @@ In [camelot.ipynb](https://github.com/klncgty/Project_BEAM/blob/main/advanced_fi
 
 ## 🚀 Operations in Ragie.ai
 
-Once the PDF data is converted to JSON, we uploaded this JSON file to Ragie.ai for advanced data retrieval operations. Below are the key files and scripts used for these operations.
+Once the PDF data is converted to JSON, we uploaded this JSON file to Ragie.ai for advanced data retrieval operations. Below are the files and scripts used for these operations.
 
 ### JSON Uploading
 - **Script:** [raige_uploading.py](https://github.com/klncgty/Project_BEAM/blob/main/ragie_main/raige_uploading.py)
